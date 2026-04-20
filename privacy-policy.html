@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrive Dating — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #555;
+      --accent: #d93a6a;
+      --rule: #e6e6e6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121212;
+        --fg: #ededed;
+        --muted: #a8a8a8;
+        --accent: #ff6d95;
+        --rule: #2a2a2a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 0.25rem;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 2rem 0 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 0.25rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin: 1.25rem 0 0.25rem;
+    }
+    p, li { color: var(--fg); }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+    ul { padding-left: 1.25rem; }
+    li { margin: 0.25rem 0; }
+    a { color: var(--accent); }
+    code {
+      background: var(--rule);
+      padding: 0.1rem 0.35rem;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy — Thrive Dating</h1>
+    <p class="meta">Last updated: April 18, 2026</p>
+
+    <p>
+      This Privacy Policy describes how Thrive Dating ("Thrive", "we", "us", or "our")
+      collects, uses, and shares your personal information when you use our mobile
+      application. By creating an account or using the app, you agree to the practices
+      described below.
+    </p>
+
+    <h2>1. Who We Are</h2>
+    <p>
+      Thrive Dating is an independently operated dating application currently in
+      private testing. The app is not yet publicly available through the App Store or
+      Google Play. Testing is limited to invited participants. For any privacy-related
+      questions or requests, contact us at
+      <a href="mailto:stump865+privacypolicy@gmail.com">stump865+privacypolicy@gmail.com</a>.
+    </p>
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Account &amp; profile information</h3>
+    <ul>
+      <li>Email address and password (stored and authenticated through Supabase)</li>
+      <li>Profile details you provide: name, age, gender, pronouns, orientation, bio, preferences, and interests</li>
+      <li>Profile photos you upload</li>
+      <li>Onboarding answers you share with our AI assistant ("Cupid") during account setup</li>
+    </ul>
+
+    <h3>2.2 Location data</h3>
+    <ul>
+      <li>Your approximate and precise location when the app is open, and — if you grant permission — in the background</li>
+      <li>Location is used to suggest nearby matches and recommend local date spots. You can disable location access at any time in your device settings</li>
+    </ul>
+
+    <h3>2.3 Microphone and audio</h3>
+    <ul>
+      <li>When you use voice chat with our AI assistant ("Cupid"), we capture your microphone audio and send it to our backend for processing and real-time AI conversation</li>
+      <li>Audio is processed by OpenAI under their Realtime API and is not retained in raw form on our servers beyond what is necessary for the active session</li>
+    </ul>
+
+    <h3>2.4 Camera and photo library</h3>
+    <ul>
+      <li>When you upload a profile photo, the app requests access to your camera or photo library to select an image. Only images you explicitly select are uploaded</li>
+    </ul>
+
+    <h3>2.5 Messages and interactions</h3>
+    <ul>
+      <li>Messages you send to matched users</li>
+      <li>Messages you exchange with our AI assistant ("Cupid")</li>
+      <li>Matches, likes, blocks, reports, and date recommendations</li>
+    </ul>
+
+    <h3>2.6 Device &amp; usage information</h3>
+    <ul>
+      <li>Push notification token (if you opt in to notifications)</li>
+      <li>Device type, operating system version, and app version</li>
+      <li>Basic crash and error logs</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>To create and maintain your account</li>
+      <li>To match you with other users based on profile data, preferences, and location</li>
+      <li>To power our AI assistant ("Cupid"), which helps with onboarding, conversation, and date recommendations</li>
+      <li>To generate personalized date spot suggestions using nearby points of interest</li>
+      <li>To send you push notifications you have opted in to</li>
+      <li>To enforce our community standards (e.g., acting on reports, blocking abusive users)</li>
+      <li>To debug and improve the app</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We share the minimum information required for these services to function:</p>
+    <ul>
+      <li>
+        <strong>Supabase</strong> — authentication, database, and file storage.
+        <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Privacy policy</a>.
+      </li>
+      <li>
+        <strong>OpenAI</strong> — powers our AI assistant ("Cupid"), profile description generation,
+        and date recommendation logic. Conversations and related text data are sent to OpenAI's API
+        for processing.
+        <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy policy</a>.
+      </li>
+      <li>
+        <strong>Google Maps Platform / Google Places</strong> — used to display maps and fetch
+        nearby venue data for date spot suggestions. Location may be sent to Google in the course of
+        these requests.
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy policy</a>.
+      </li>
+      <li>
+        <strong>Apple Push Notification Service / Google Firebase Cloud Messaging</strong> —
+        used to deliver push notifications if you have opted in.
+      </li>
+      <li>
+        <strong>Railway</strong> — hosts our backend server that brokers requests between the app
+        and OpenAI / Google services.
+        <a href="https://railway.com/legal/privacy" target="_blank" rel="noopener">Privacy policy</a>.
+      </li>
+    </ul>
+    <p>
+      We do not sell your personal information. We do not share your data with advertisers.
+    </p>
+
+    <h2>5. Data Retention</h2>
+    <ul>
+      <li>Profile and account data is retained for as long as your account is active</li>
+      <li>Messages are retained for as long as both participants' accounts exist</li>
+      <li>If you delete your account, we remove your profile, photos, and messages from our active systems. Residual copies may remain in encrypted backups for a limited period before being purged</li>
+    </ul>
+
+    <h2>6. Your Rights &amp; Choices</h2>
+    <ul>
+      <li><strong>Access:</strong> You may request a copy of the personal data we hold about you</li>
+      <li><strong>Correction:</strong> You may update your profile at any time within the app</li>
+      <li><strong>Deletion:</strong> You may request full deletion of your account and associated data by emailing us at the address below</li>
+      <li><strong>Permissions:</strong> You may revoke location, microphone, camera, photo library, or notification permissions at any time in your device settings</li>
+      <li><strong>Blocking:</strong> You may block or report other users directly within the app</li>
+    </ul>
+
+    <h2>7. Security</h2>
+    <p>
+      We use industry-standard encryption in transit (HTTPS/TLS) for all communication between the
+      app and our backend. Passwords are hashed by Supabase and are never stored in plaintext. No
+      system is perfectly secure, and we cannot guarantee absolute security.
+    </p>
+
+    <h2>8. Children</h2>
+    <p>
+      Thrive Dating is intended for users aged 18 and older. We do not knowingly collect information
+      from anyone under 18. If you believe a minor has provided us with personal data, contact us at
+      the address below and we will delete it.
+    </p>
+
+    <h2>9. International Users</h2>
+    <p>
+      The app's backend and third-party processors (Supabase, OpenAI, Google, Railway) may process
+      your data in the United States or other countries. By using the app, you consent to this
+      transfer and processing.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Material changes will be reflected in the
+      "Last updated" date at the top of this page. Continued use of the app after changes take
+      effect constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      For any privacy-related questions, data access requests, or deletion requests, email us at
+      <a href="mailto:stump865+privacypolicy@gmail.com">stump865+privacypolicy@gmail.com</a>.
+      We will respond within a reasonable timeframe.
+    </p>
+
+    <footer>
+      &copy; 2026 Thrive Dating. This app is currently in private testing and is not available to the general public.
+    </footer>
+  </div>
+</body>
+</html>
